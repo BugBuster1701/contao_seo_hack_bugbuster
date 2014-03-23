@@ -1,0 +1,43 @@
+{
+	"name":"bugbuster/seo_hack_bugbuster",
+	"description":"Contao CMS - Anti SEO Hack",
+	"keywords":["seo","hack","contao"],
+	"type":"contao-module",
+	"homepage":"http://www.contao.glen-langer.de",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Glen Langer",
+			"homepage":"http://www.contao.glen-langer.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"issues":"https://github.com/BugBuster1701/seo_hack_bugbuster/issues",
+		"irc":"irc://irc.freenode.org/contao.dev",
+		"source":"https://github.com/BugBuster1701/seo_hack_bugbuster",
+		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core":">=3,<4",
+		"contao-community-alliance/composer-installer":"*"
+	},
+	"autoload":{
+		"classmap":[""]
+	},
+	"replace":{
+		"contao-legacy/seo_hack_bugbuster": "*"
+	},
+	"extra":{
+		"contao":{
+			"sources":{
+				"src": "system/modules/seo_hack_bugbuster"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "0.1.x-dev",
+			"dev-develop": "0.2.x-dev"
+		}
+	}
+}
