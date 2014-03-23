@@ -12,8 +12,8 @@ Die Idee ist nun, statt der 404 Fehlermeldung die Zugriffe über eine permanente
 
 ### Manuelle Installation
 
-Das Inhalt vom `src` Verzeichnis muss nach `system/modules/` kopiert werden. Es muss also damit existieren: `system/modules/seo_hack_bugbuster/`.
+Der Inhalt vom `src` Verzeichnis muss nach `system/modules/` kopiert werden. Es muss also damit existieren: `system/modules/seo_hack_bugbuster/`.
 
 ### Hinweise
-* composer.json nicht geprüft, composer Installation nicht getestet. Rückmeldung / Korrekturen erwünscht.
+* composer.json ist nicht geprüft, composer Installation nicht getestet. Rückmeldung / Korrekturen erwünscht.
 
