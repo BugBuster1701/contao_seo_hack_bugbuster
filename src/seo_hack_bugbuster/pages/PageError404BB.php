@@ -43,7 +43,7 @@ class PageError404BB extends \PageError404
 	        $this->redirect(\Environment::get('base') . $newRequest, 301);
 	        exit();
 	    }
-	    parent::generate($pageId, $strDomain=null, $strHost=null);
+	    parent::generate($pageId, $strDomain, $strHost);
 	}
 
 
