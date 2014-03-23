@@ -32,7 +32,7 @@
 	"extra":{
 		"contao":{
 			"sources":{
-				"src": "system/modules/seo_hack_bugbuster"
+				"src/seo_hack_bugbuster": "system/modules/seo_hack_bugbuster"
 			}
 		},
 		"branch-alias": {
