@@ -43,6 +43,14 @@ class PageError404BB extends \PageError404
 	        $this->redirect(\Environment::get('base') . $newRequest, 301);
 	        exit();
 	    }
+	    // ANTI-SEO-HACK for index.php?page=2 (GitHub #1)
+	    if ($GLOBALS['TL_CONFIG']['rewriteURL'] && strncmp(\Environment::get('request'), 'index.php', 9) === 0)
+	    {
+	        $newRequest = str_replace('index.php', '', \Environment::get('request'));
+	        $this->log('New page for page ID "' . $pageId . '", host "' . \Environment::get('host') . '" and languages "' . implode(', ', \Environment::get('httpAcceptLanguage')) . '" (' . \Environment::get('base') . $newRequest . ')', 'PageError404 ANTI-SEO-Hack', TL_CONFIGURATION);
+	        $this->redirect(\Environment::get('base') . $newRequest, 301);
+	        exit();
+	    }
 	    parent::generate($pageId, $strDomain, $strHost);
 	}
 
