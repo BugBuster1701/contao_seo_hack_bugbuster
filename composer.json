@@ -27,7 +27,7 @@
 		"classmap":[""]
 	},
 	"replace":{
-		"contao-legacy/seo_hack_bugbuster": "*"
+		"contao-legacy/seo_hack_bugbuster":"*"
 	},
 	"extra":{
 		"contao":{
