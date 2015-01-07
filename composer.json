@@ -13,15 +13,15 @@
 		}
 	],
 	"support":{
-		"issues":"https://github.com/BugBuster1701/seo_hack_bugbuster/issues",
+		"issues":"https://github.com/BugBuster1701/contao_seo_hack_bugbuster/issues",
 		"irc":"irc://irc.freenode.org/contao.dev",
-		"source":"https://github.com/BugBuster1701/seo_hack_bugbuster",
+		"source":"https://github.com/BugBuster1701/contao_seo_hack_bugbuster",
 		"forum":"https://community.contao.org/de/forumdisplay.php?119-Sonstige-Erweiterungen"
 	},
 	"require":{
 		"php":">=5.3",
 		"contao/core":">=3,<4",
-		"contao-community-alliance/composer-installer":"*"
+		"contao-community-alliance/composer-plugin": "*"
 	},
 	"autoload":{
 		"classmap":[""]
