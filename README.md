@@ -10,11 +10,13 @@ Das klingt im Prinzip richtig, hat aber 2 große Nachteile.
 
 Die Idee ist nun, statt der 404 Fehlermeldung die Zugriffe über eine permanente Umleitung auf die richtige URL zu lenken.
 
+
+### Installation über Composer
+
+`composer require bugbuster/seo_hack_bugbuster`
+
+
 ### Manuelle Installation
 
 Der Inhalt vom `src` Verzeichnis muss nach `system/modules/` kopiert werden. Es muss also damit existieren: `system/modules/seo_hack_bugbuster/`.
 Danach im Backend die Systemwartung durchführen, im Abschnitt "Internen Cache leeren" alles markieren dazu.
-
-### Hinweise
-* composer.json ist nicht geprüft, composer Installation nicht getestet. Rückmeldung / Korrekturen erwünscht.
-

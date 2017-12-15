@@ -7,7 +7,7 @@
  *
  * Module configuration file.
  *
- * @copyright  Glen Langer 2014 <http://www.contao.glen-langer.de>
+ * @copyright  Glen Langer 2014 <http://contao.ninja>
  * @author     Glen Langer (BugBuster)
  * @package    Seo_hack_bugbuster
  * @license    LGPL

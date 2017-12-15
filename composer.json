@@ -3,12 +3,12 @@
 	"description":"Contao CMS - Anti SEO Hack",
 	"keywords":["seo","hack","contao"],
 	"type":"contao-module",
-	"homepage":"http://www.contao.glen-langer.de",
+	"homepage":"http://contao.ninja",
 	"license":"LGPL-3.0+",
 	"authors":[
 		{
 			"name":"Glen Langer",
-			"homepage":"http://www.contao.glen-langer.de",
+			"homepage":"http://contao.ninja",
 			"role":"Developer"
 		}
 	],
@@ -36,7 +36,6 @@
 			}
 		},
 		"branch-alias": {
-			"dev-master": "0.2.x-dev",
 			"dev-develop": "0.3.x-dev"
 		}
 	}
