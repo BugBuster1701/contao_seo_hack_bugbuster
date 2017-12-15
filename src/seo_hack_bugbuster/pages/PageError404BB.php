@@ -33,7 +33,7 @@ class PageError404BB extends \PageError404
 	 * @param string
 	 * @param string
 	 */
-	public function generate($pageId, $strDomain=null, $strHost=null)
+	public function generate($pageId, $strDomain=null, $strHost=null, $blnUnusedGet=false)
 	{
 	    // ANTI-SEO-HACK
 	    if ($GLOBALS['TL_CONFIG']['rewriteURL'] && strncmp(\Environment::get('request'), 'index.php/', 10) === 0)
@@ -51,7 +51,7 @@ class PageError404BB extends \PageError404
 	        $this->redirect(\Environment::get('base') . $newRequest, 301);
 	        exit();
 	    }
-	    parent::generate($pageId, $strDomain, $strHost);
+	    parent::generate($pageId, $strDomain, $strHost, $blnUnusedGet);
 	}
 
 
